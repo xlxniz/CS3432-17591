@@ -96,7 +96,6 @@ bool interpret(char* instr){
 			token[1]++;
 			token[3]++;
 			int32_t mem_address = atoi(token[2]);
-			//printf("Memory address: %d", mem_address);
 			int32_t read_data = read_address(to_hex(mem_address), "mem.txt");
 			reg[atoi(token[1])] = read_data;
 			token[1]--;

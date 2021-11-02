@@ -1,7 +1,6 @@
 #include  <stdlib.h>
 #include <stdio.h>
-#include <stdbool.h>
-#define max 1000
+#include <stdbool.h>#define max 1000
 
 //checks if char is whitespace
 bool delim_character(char c) {
